@@ -1,0 +1,65 @@
+# Wireshark Network Traffic Analysis Notes
+
+## Tool Used
+- Wireshark
+
+---
+
+## Objective
+The purpose of this lab was to analyze network traffic in order to identify:
+- Suspicious activity
+- Malicious connections
+- Unusual packet behavior
+
+---
+
+## What I Analyzed
+Using Wireshark, I captured and inspected:
+- TCP traffic
+- UDP traffic
+- DNS requests
+- HTTP connections
+
+I used filters to narrow down specific packets and identify communication patterns.
+
+Example filters:
+- `ip.addr == x.x.x.x`
+- `tcp`
+- `dns`
+- `http`
+
+---
+
+## Findings
+From the packet analysis, I learned how to:
+- Detect unusual IP addresses
+- Identify repeated connection attempts
+- Observe DNS queries to suspicious domains
+- See how malware communicates with external servers
+
+These are common techniques used by attackers for:
+- Command & Control (C2)
+- Data exfiltration
+- Remote access
+
+---
+
+## Security Insight
+Network traffic tells a story.  
+By reading packets, we can detect:
+- Malware infections
+- Unauthorized access
+- Data leaks
+
+Wireshark helps security analysts understand what is happening inside a network in real time.
+
+---
+
+## What I Learned
+This lab helped me develop:
+- Network traffic analysis skills
+- Understanding of how protocols work
+- Ability to spot suspicious behavior
+- Practical SOC analyst skills
+
+This is essential for any cyber security role such as SOC Analyst or Network Security Analyst.
